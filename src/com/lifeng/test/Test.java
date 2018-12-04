@@ -43,6 +43,8 @@ public class Test {
 		JedisCluster cluster=new JedisCluster(nodes);
 		cluster.set("key1", "你好世界");
 		System.out.println(cluster.get("key1"));
+		
+		System.out.println("测试一下");
 	}
 	
 }
